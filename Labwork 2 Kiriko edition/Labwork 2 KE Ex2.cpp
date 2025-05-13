@@ -13,9 +13,9 @@ int task1(){
 	//calling in variables
 	cout << "Starting Exercise 2\n";
 	//making my variables
-	float a = -50;
-	float b = 4;
-	float c = 9;
+	const float a = -50;
+	const float b = 4;
+	const float c = 9;
 	float y = ((c * a) / (a + b)) + ((b * c) / (c + a));
 
 	cout << "Calculation of our pretty little function: " << y << endl;
